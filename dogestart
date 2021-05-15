@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# start miner DogeCoin wallet phahok
+# Using CPU miner RamdonX
+# by Jose Renato [phahok@gmail.com]
+
+#path xmrig
+cd xmrig-6.12.1_bionic_x64 
+
+#start miner dogecoin
+./xmrig --donate-level 1 -o rx.unmineable.com:3333 -u DOGE:DQqA1JEoWXhE37SxFvMEzCLJKpzaUv2xJL.severino -p x -k -a rx/0
